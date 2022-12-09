@@ -89,6 +89,8 @@ function Carlist() {
         .catch(err => console.error(err))
      }
 
+     console.log(cars)
+
     return (
         <>
             <AddCar addCar={addCar}/>
